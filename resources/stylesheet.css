@@ -26,6 +26,7 @@ body {
 }
 
 .rocketend {
+    position: absolute;
     height: 0px;
     top: 10%;
     right: 30%;
@@ -44,42 +45,24 @@ body {
     text-decoration: none;
 }
 
-.hiddenmessage1 {
-    visibility: hidden;
-}
-
-.revealmessage1 {
-    visibility: visible;
-}
-
-.hiddenmessage2 {
-    visibility: hidden;
-}
-
-.revealmessage2 {
-    visibility: visible;
-}
-
-.hiddenmessage3 {
-    visibility: hidden;
-}
-
-.revealmessage3 {
-    visibility: visible;
-}
-
+.hiddenmessage1, 
+.hiddenmessage2, 
+.hiddenmessage3, 
 .hiddenmessage4 {
-    display: none;
+    visibility: hidden;
 }
 
+.revealmessage1, 
+.revealmessage2, 
+.revealmessage3,
 .revealmessage4 {
-    display: block;
+    visibility: visible;
 }
 
 #imagecredit {
     bottom: 10px;
     right: 20px;
-    position: absolute;
+    position: fixed;
     font-size: 12px;
     text-align: right;
 }

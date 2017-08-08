@@ -1,3 +1,4 @@
+/* global $ */
 $(document).ready(function(){
     $("#yeah").click(function() {
         $('.hiddenmessage1').toggleClass('revealmessage1');

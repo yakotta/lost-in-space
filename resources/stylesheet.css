@@ -1,7 +1,7 @@
 body {
     background-color: #132328;
     background-image: url('img-stars.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-attachment: fixed;
     background-position: center;
 }
@@ -39,6 +39,11 @@ body {
     position: relative;
 }
 
+.text a, .text a:visited {
+    color: #eaddbb;
+    text-decoration: none;
+}
+
 .hiddenmessage1 {
     visibility: hidden;
 }
@@ -69,4 +74,12 @@ body {
 
 .revealmessage4 {
     display: block;
+}
+
+#imagecredit {
+    bottom: 10px;
+    right: 20px;
+    position: absolute;
+    font-size: 12px;
+    text-align: right;
 }

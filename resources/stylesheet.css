@@ -1,0 +1,64 @@
+body {
+    background-color: #132328;
+    background-image: url('img-stars.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#astronaut {
+    height: 100px;
+    position: fixed;
+    top: 35%;
+    right: 45%;
+    z-index: 1;
+}
+
+#rocket {
+    transition: height 5s, top 5s, right 5s;
+}
+
+.rocketstart {
+    position: absolute;
+    height: 200px;
+    top: 40%;
+    right: 50%;
+}
+
+.rocketend {
+    height: 0px;
+    top: 10%;
+    right: 30%;
+}
+
+.text {
+    font-family: sans-serif;
+    color: #eaddbb;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.hiddenmessage2 {
+    visibility: hidden;
+}
+
+.revealmessage2 {
+    visibility: visible;
+}
+
+.hiddenmessage3 {
+    visibility: hidden;
+}
+
+.revealmessage3 {
+    visibility: visible;
+}
+
+.hiddenmessage4 {
+    display: none;
+}
+
+.revealmessage4 {
+    display: block;
+}

@@ -1,7 +1,10 @@
 $(document).ready(function(){
     $("#yeah").click(function() {
-        $('.rocketstart').toggleClass('rocketend');
-        $('.hiddenmessage2').toggleClass('revealmessage2');
+        $('.hiddenmessage1').toggleClass('revealmessage1');
+        setTimeout(function(){
+            $('.rocketstart').toggleClass('rocketend');
+            $('.hiddenmessage2').toggleClass('revealmessage2'); 
+        }, 2000);
     });
     
     $('#ohshit').click(function(){

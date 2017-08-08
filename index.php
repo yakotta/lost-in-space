@@ -18,6 +18,12 @@
             </p>
         </div>
         
+        <div class="hiddenmessage1 text">
+            <p>
+                Damn right it's cool.
+            </p>
+        </div>
+        
         <div class="hiddenmessage2 text">
             <p>
                 That's your rocket. It's drifting away.

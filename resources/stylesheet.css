@@ -39,6 +39,14 @@ body {
     position: relative;
 }
 
+.hiddenmessage1 {
+    visibility: hidden;
+}
+
+.revealmessage1 {
+    visibility: visible;
+}
+
 .hiddenmessage2 {
     visibility: hidden;
 }

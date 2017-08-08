@@ -15,7 +15,7 @@ body {
 }
 
 #rocket {
-    transition: height 5s, top 5s, right 5s;
+    transition: height 10s, top 10s, right 10s;
 }
 
 .rocketstart {

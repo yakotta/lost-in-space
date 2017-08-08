@@ -29,7 +29,7 @@
         
         <div class="hiddenmessage3 text">
             <p>
-                Oh shit is right. You're gonna die here. Alone. 
+                Oh shit is right, dude. You're gonna die here. Alone. 
                 Helpless.
             </p>
             <p>
@@ -48,29 +48,6 @@
             </p>
         </div>
         
-        <script>
-            $(document).ready(function(){
-                $("#yeah").click(function() {
-                    $('.rocketstart').toggleClass('rocketend');
-                    $('.hiddenmessage2').toggleClass('revealmessage2');
-                });
-                
-                $('#ohshit').click(function(){
-                    $('.hiddenmessage3').toggleClass('revealmessage3');
-                });
-                
-                $('#scream').click(function(){
-                    var possibilities = [
-                            "Dignified",
-                            "Yeah, I'd probably say that, too",
-                            "Really? Are you sure? Okay, then"
-                        ];
-                    var randomized = Math.floor(Math.random() * possibilities.length);
-                    var response = possibilities[randomized];
-                    $('p.response').append(response);
-                    $('.hiddenmessage4').toggleClass('revealmessage4');
-                });
-            });
-        </script>
+        <script src="resources/transitions.js" type="text/javascript"></script>
         </body>
 </html>

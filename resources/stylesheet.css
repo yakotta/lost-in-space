@@ -32,31 +32,17 @@ body {
     right: 30%;
 }
 
-.text {
+.text, .text a, .text a:visited{
     font-family: sans-serif;
     color: #eaddbb;
     width: 200px;
     text-align: center;
     position: relative;
-}
-
-.text a, .text a:visited {
-    color: #eaddbb;
     text-decoration: none;
 }
 
-.hiddenmessage1, 
-.hiddenmessage2, 
-.hiddenmessage3, 
-.hiddenmessage4 {
-    visibility: hidden;
-}
-
-.revealmessage1, 
-.revealmessage2, 
-.revealmessage3,
-.revealmessage4 {
-    visibility: visible;
+.hidden {
+    display: none;
 }
 
 #imagecredit {

@@ -12,8 +12,7 @@ $(document).ready(function(){
         $('.message3').removeClass('hidden');
     });
     
-    $('#scream').on('click',function(){
-        // $('#scream').off('click');
+    $('#scream').click(function(){
         var lastwords = $('#lastwords').val();
         if (lastwords == '' || lastwords == ' ') {
             lastwords = '*silence*';
@@ -33,4 +32,8 @@ $(document).ready(function(){
         $('p.response').html(response);
         $('.message4').removeClass('hidden');
     });
+    
+    $('#cool').click(function(){
+        $('.text').addClass('hidden');
+    })
 });
